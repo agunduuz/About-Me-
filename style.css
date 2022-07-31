@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 20px;
+  filter: invert(1);
+}
+body {
+  background-image: url('img/33a33d9077a28500e03558aedaf9619b.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+}
+body .container {
+  width: 1280px;
+}
+
+/* ANA BAŞLIKLAR */
+body .container header {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+body .container header a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+body .container header a.active {
+  color: #f10f0f;
+}
+
+body .container hr {
+  margin-top: 30px;
+  border-color: #f10f0f;
+}
+
+body .container section {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*HAKKINDA VE FOTOĞRAF ALANI*/
+body .container section .image {
+  background-image: url('img/IMG_0727.jpg');
+  width: 580px;
+  height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .container section .aboutMe {
+  width: 640px;
+  padding: 40px;
+}
+body .container section .aboutMe h2 {
+  color: #f10f0f;
+  font-size: 28px;
+  font-weight: 500;
+}
+body .container section .aboutMe p {
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+/* BİLGİ ALANI */
+body .container .section-two {
+  align-items: flex-start !important;
+}
+body .container .section-two .contact {
+  width: 425px;
+  font-weight: 100;
+  padding-right: 20px;
+}
+body .container .section-two .contact h3 {
+  color: #c6b8b2;
+  font-weight: 500;
+}
+body .container .section-two .contact h4 {
+  color: #f10f0f;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+body .container .section-two .contact p {
+  color: #fff;
+}
+body .container .section-two .contact .number {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+body .container .section-two .contact .number p {
+  margin-left: 10px;
+}
+body .container .section-two .contact .mail {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+body .container .section-two .contact .mail p {
+  margin-left: 10px;
+}
+body .container .section-two .contact .social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+body .container .section-two .contact .social-media a {
+  margin-right: 15px;
+  opacity: 0.6;
+}
+body .container .section-two .contact .social-media a:hover {
+  opacity: 1;
+}
+
+body .container .section-two .education-sertificate {
+  width: 425px;
+  color: #fff;
+  padding: 0 20px;
+}
+
+body .container .section-two .education-sertificate .educations h3 {
+  font-weight: 500;
+  color: #c6b8b2;
+}
+
+body .container .section-two .education-sertificate .educations .education {
+  display: flex;
+  align-items: baseline;
+  margin-top: 12px;
+}
+.education h5 {
+  width: 200px;
+  font-size: 15px;
+}
+
+.education p {
+  width: 700px;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.sertificates h3 {
+  font-weight: 500;
+  color: #c6b8b2;
+}
+
+.sertificates {
+  margin-top: 12px;
+}
+
+.sertificate {
+  display: flex;
+  align-items: baseline;
+  margin-top: 12px;
+}
+
+.sertificate h5 {
+  width: 200px;
+  font-size: 15px;
+}
+
+.sertificate p {
+  width: 700px;
+  font-size: 14px;
+}
+
+.technicalSkills-extras {
+  width: 425px;
+  padding-left: 20px;
+}
+.technicalSkills-extras {
+  width: 425px;
+  padding-left: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.technicalSkills-extras h3 {
+  color: #c6b8b2;
+  font-weight: 500;
+}
+
+.extras {
+  margin-top: 12px;
+}
+
+.extra {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+
+.extra h5 {
+  font-size: 15px;
+  width: 200px;
+}
+
+.extra p {
+  width: 700px;
+  font-size: 14px;
+}
+.skills {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.skills a {
+  text-decoration: none;
+  margin-right: 30px;
+  opacity: 0.6;
+}
+.skills a:hover {
+  opacity: 1;
+}
+.skills a img {
+  width: 30px;
+}
+
+.technicalSkills p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url('img/33a33d9077a28500e03558aedaf9619b\ -\ Kopya.jpg');
+    overflow-y: scroll;
+    backdrop-filter: blur(0);
+    background-position: center;
+    background-repeat: repeat-y;
+  }
+  body .container header {
+    justify-content: center;
+  }
+  body .container {
+    width: 450px;
+  }
+  body .container section {
+    flex-direction: column;
+  }
+  body .container section .image {
+    width: 380px;
+    height: 240px;
+  }
+  body .container section .aboutMe {
+    width: 380px;
+  }
+  /* body .container .section-two {
+  } */
+  body .container .section-two .contact {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    width: 425px;
+  }
+  body .container .section-two .contact h3 {
+    text-align: center;
+  }
+  body .container .section-two .education-sertificate {
+    padding: 0;
+    margin-top: 15px;
+  }
+  body .container .section-two .education-sertificate h3 {
+    text-align: center;
+  }
+  .technicalSkills-extras {
+    padding-bottom: 50px;
+    padding-left: 0;
+    margin-top: 15px;
+  }
+  .technicalSkills-extras h3 {
+    text-align: center;
+  }
+  .technicalSkills {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+}
